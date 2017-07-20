@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.devinpradipta.as_sunnah">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Penjelasan" />
+
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+
+        <activity android:name=".Dhuha" />
+        <activity android:name=".Tahajud" />
+        <activity android:name=".Tadarus" />
+        <activity android:name=".Zakat" />
+        <activity android:name=".Dzikir" />
+        <activity android:name=".lihatprogress" />
+        <activity android:name=".aturProgress">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Masuk_progress" />
+        <activity android:name=".Option" />
+        <activity android:name=".Notifikasi"></activity>
+    </application>
+
+</manifest>
