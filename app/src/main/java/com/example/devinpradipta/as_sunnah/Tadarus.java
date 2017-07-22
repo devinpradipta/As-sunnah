@@ -65,12 +65,16 @@ public class Tadarus extends AppCompatActivity {
             }
         });
 
+        SharedPreferences save = getSharedPreferences("simpanTDR",Context.MODE_PRIVATE);
+        String testing = save.getString("TDR","");
+        hasilnya.setText(""+testing);
+        hasilnya1.setText("Target Dhuha "+testing);
         simpan.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                simpanTadarus= getSharedPreferences("Tahajud", Context.MODE_PRIVATE);
-                SharedPreferences.Editor edit = simpanTadarus.edit();
-                edit.putString("THD", String.valueOf(jumlahTadarus));
+                SharedPreferences save = getSharedPreferences("simpanTDR",Context.MODE_PRIVATE);
+                SharedPreferences.Editor edit = save.edit();
+                edit.putString("TDR", String.valueOf(jumlahTadarus));
                 edit.apply();
                 Toast.makeText(getApplicationContext(),"Data telah tersimpan",Toast.LENGTH_LONG).show();
             }
@@ -80,17 +84,29 @@ public class Tadarus extends AppCompatActivity {
 
     }
 
-        public void juz(View v) {
-             int id = haha.getCheckedRadioButtonId();
-             satu = (RadioButton) findViewById(R.id.radioButton);
-             Toast.makeText(getApplicationContext(),satu.getText(),Toast.LENGTH_SHORT).show();
-        }
-
-        public void halaman(View v) {
-            int id = haha.getCheckedRadioButtonId();
-            dua = (RadioButton) findViewById(R.id.radioButton2);
-            Toast.makeText(getApplicationContext(),dua.getText(),Toast.LENGTH_SHORT).show();
-        }
+    public void juz(View v) {
+        int id = haha.getCheckedRadioButtonId();
+        satu = (RadioButton) findViewById(R.id.radioButton);
+        SharedPreferences save = getSharedPreferences("simpanTDR",Context.MODE_PRIVATE);
+        String testing = save.getString("TDR","");
+        hasilnya1.setText("Target Dhuha "+ testing + " "+ satu.getText());
     }
+
+    public void halaman(View v) {
+        int id = haha.getCheckedRadioButtonId();
+        dua = (RadioButton) findViewById(R.id.radioButton2);
+        SharedPreferences save = getSharedPreferences("simpanTDR",Context.MODE_PRIVATE);
+        String testing = save.getString("TDR","");
+        hasilnya1.setText("Target Dhuha "+ testing + " "+ dua.getText());
+    }
+
+    public void lembar(View v) {
+        int id = haha.getCheckedRadioButtonId();
+        tiga = (RadioButton) findViewById(R.id.radioButton3);
+        SharedPreferences save = getSharedPreferences("simpanTDR",Context.MODE_PRIVATE);
+        String testing = save.getString("TDR","");
+        hasilnya1.setText("Target Dhuha "+ testing + " "+ tiga.getText());
+    }
+}
 
 
