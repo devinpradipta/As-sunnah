@@ -50,9 +50,6 @@ public class Penjelasan extends AppCompatActivity {
                 }else if (position == 6){
                     i = new Intent(getApplication(), Zakat.class);//ganti jadwal shalat pake JSON
                     startActivity(i);
-                }else if (position == 7){
-                    i = new Intent(getApplication(), Notifikasi.class);
-                    startActivity(i);
                 }
             }
         });

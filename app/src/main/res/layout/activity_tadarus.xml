@@ -20,40 +20,59 @@
         android:text="0"
         android:textSize="30sp" />
 
-    <RadioButton
-        android:text="Halaman"
-        android:layout_width="wrap_content"
+    <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/grups"
+        android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/radioButton2"
-        android:layout_above="@+id/radioButton3"
-        android:layout_alignRight="@+id/button26"
-        android:layout_alignEnd="@+id/button26"
-        android:layout_marginBottom="38dp" />
+        android:orientation="vertical"
+        android:weightSum="1">
 
-    <RadioButton
-        android:text="Lembar"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/radioButton3"
-        android:layout_above="@+id/button26"
-        android:layout_alignLeft="@+id/button26"
-        android:layout_alignStart="@+id/button26"
-        android:layout_marginBottom="34dp" />
+        <RadioButton
+            android:id="@+id/radioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/button8"
+            android:layout_alignStart="@+id/button8"
+            android:layout_below="@+id/button7"
+            android:layout_marginTop="105dp"
+            android:text="Juz" />
+
+        <RadioButton
+            android:id="@+id/radioButton2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.52"
+            android:text="Halaman"
+            android:layout_alignBaseline="@+id/radioButton"
+            android:layout_alignBottom="@+id/radioButton"
+            android:layout_alignRight="@+id/button26"
+            android:layout_alignEnd="@+id/button26" />
+
+        <RadioButton
+            android:id="@+id/radioButton3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lembar"
+            android:layout_alignBaseline="@+id/radioButton2"
+            android:layout_alignBottom="@+id/radioButton2"
+            android:layout_alignRight="@+id/button7"
+            android:layout_alignEnd="@+id/button7" />
+    </RadioGroup>
 
     <Button
         android:id="@+id/button7"
         style="@style/Widget.AppCompat.Button.Small"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginLeft="34dp"
-        android:layout_marginStart="34dp"
-        android:layout_marginTop="26dp"
+        android:layout_marginLeft="33dp"
+        android:layout_marginStart="33dp"
+        android:layout_marginTop="24dp"
         android:background="@android:color/holo_red_light"
         android:text="-"
-        android:textSize="30sp" />
+        android:textSize="30sp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
 
     <Button
         android:id="@+id/button8"
@@ -67,14 +86,7 @@
         android:layout_toRightOf="@+id/button9"
         android:layout_toEndOf="@+id/button9" />
 
-    <RadioButton
-        android:text="Juz"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/radioButton"
-        android:layout_below="@+id/button7"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="24dp" />
+
 
     <Button
         android:text="Update progress tadarus disini"
@@ -83,7 +95,7 @@
         android:id="@+id/button9"
         android:textAppearance="@style/TextAppearance.AppCompat.Button"
         android:background="@android:color/holo_green_light"
-        android:layout_marginBottom="56dp"
+        android:layout_marginBottom="19dp"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true" />
 
@@ -94,9 +106,8 @@
         android:background="@android:color/holo_orange_dark"
         android:text="Simpan"
         android:textColor="@android:color/background_light"
-        android:layout_above="@+id/textView8"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="28dp" />
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
 
     <TextView
         android:text="Target Tadarus 0 Juz"
@@ -106,7 +117,9 @@
         android:textAppearance="@style/TextAppearance.AppCompat.Display4"
         android:textSize="30sp"
         android:textAlignment="center"
-        android:layout_marginBottom="37dp"
-        android:layout_above="@+id/button9"
+        android:layout_marginTop="51dp"
+        android:layout_below="@+id/button26"
         android:layout_centerHorizontal="true" />
+
+
 </RelativeLayout>
