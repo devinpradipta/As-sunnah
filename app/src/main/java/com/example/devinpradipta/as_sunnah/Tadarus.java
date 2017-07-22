@@ -76,10 +76,21 @@ public class Tadarus extends AppCompatActivity {
             }
         });
 
-        int id = haha.getCheckedRadioButtonId();
-        satu = (RadioButton) findViewById(R.id.radioButton2);
+
 
     }
+
+        public void juz(View v) {
+             int id = haha.getCheckedRadioButtonId();
+             satu = (RadioButton) findViewById(R.id.radioButton);
+             Toast.makeText(getApplicationContext(),satu.getText(),Toast.LENGTH_SHORT).show();
+        }
+
+        public void halaman(View v) {
+            int id = haha.getCheckedRadioButtonId();
+            dua = (RadioButton) findViewById(R.id.radioButton2);
+            Toast.makeText(getApplicationContext(),dua.getText(),Toast.LENGTH_SHORT).show();
+        }
     }
 
 
