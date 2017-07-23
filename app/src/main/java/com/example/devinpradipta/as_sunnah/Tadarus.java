@@ -85,7 +85,6 @@ public class Tadarus extends AppCompatActivity {
     }
 
     public void juz(View v) {
-        int id = haha.getCheckedRadioButtonId();
         satu = (RadioButton) findViewById(R.id.radioButton);
         SharedPreferences save = getSharedPreferences("simpanTDR",Context.MODE_PRIVATE);
         String testing = save.getString("TDR","");
@@ -93,7 +92,6 @@ public class Tadarus extends AppCompatActivity {
     }
 
     public void halaman(View v) {
-        int id = haha.getCheckedRadioButtonId();
         dua = (RadioButton) findViewById(R.id.radioButton2);
         SharedPreferences save = getSharedPreferences("simpanTDR",Context.MODE_PRIVATE);
         String testing = save.getString("TDR","");
@@ -101,7 +99,6 @@ public class Tadarus extends AppCompatActivity {
     }
 
     public void lembar(View v) {
-        int id = haha.getCheckedRadioButtonId();
         tiga = (RadioButton) findViewById(R.id.radioButton3);
         SharedPreferences save = getSharedPreferences("simpanTDR",Context.MODE_PRIVATE);
         String testing = save.getString("TDR","");
