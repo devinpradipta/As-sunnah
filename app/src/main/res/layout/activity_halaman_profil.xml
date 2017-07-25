@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.devinpradipta.as_sunnah.HalamanProfil">
+
+
+
+
+    <LinearLayout
+        android:layout_width="444dp"
+        android:layout_height="70dp"
+        android:background="#455A64"
+        android:gravity="center"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="-17dp"
+        tools:layout_editor_absoluteY="62dp">
+
+        <GridLayout
+            android:layout_width="wrap_content"
+            android:layout_height="82dp"
+            android:columnCount="3"
+            android:padding="16dp"
+            android:rowCount="2">
+
+            <TextView
+                android:id="@+id/test"
+                android:layout_gravity="center"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:text="300"
+                android:textColor="@android:color/white"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/test1"
+                android:layout_gravity="center"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:text="250"
+                android:textColor="@android:color/white"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/test2"
+                android:layout_gravity="center"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:text="500"
+                android:textColor="@android:color/white"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_gravity="center"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:text="Dhuha"
+                android:textColor="@android:color/white"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_gravity="center"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:text="Tahajud"
+                android:textColor="@android:color/white"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_gravity="center"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:text="Tadarus"
+                android:textColor="@android:color/white"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+        </GridLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="444dp"
+        android:layout_height="70dp"
+        android:background="#455A64"
+        android:gravity="center"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="-17dp"
+        tools:layout_editor_absoluteY="-1dp">
+
+        <GridLayout
+            android:layout_width="wrap_content"
+            android:layout_height="82dp"
+            android:columnCount="3"
+            android:padding="16dp"
+            android:rowCount="2">
+
+            <TextView
+                android:id="@+id/test"
+                android:layout_gravity="center"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:text="Progress Ibadah Anda"
+                android:textColor="@android:color/white"
+                android:textSize="35sp"
+                android:textStyle="bold" />
+
+
+        </GridLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="444dp"
+        android:layout_height="70dp"
+        android:background="#455A64"
+        android:gravity="center"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="-17dp"
+        tools:layout_editor_absoluteY="131dp">
+
+        <GridLayout
+            android:layout_width="wrap_content"
+            android:layout_height="82dp"
+            android:columnCount="3"
+            android:padding="16dp"
+            android:rowCount="2">
+
+            <TextView
+                android:id="@+id/test4"
+                android:layout_gravity="center"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:text="300"
+                android:textColor="@android:color/white"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/test5"
+                android:layout_gravity="center"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:text="250"
+                android:textColor="@android:color/white"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/test6"
+                android:layout_gravity="center"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:text="500"
+                android:textColor="@android:color/white"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_gravity="center"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:text="Dhuha"
+                android:textColor="@android:color/white"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_gravity="center"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:text="Tahajud"
+                android:textColor="@android:color/white"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_gravity="center"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:text="Tadarus"
+                android:textColor="@android:color/white"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+        </GridLayout>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button27"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="417dp"
+        android:layout_height="47dp"
+        android:background="@android:color/holo_orange_dark"
+        android:text="Updatr Progress"
+        tools:layout_editor_absoluteX="-3dp"
+        tools:layout_editor_absoluteY="561dp" />
+
+
+</android.support.constraint.ConstraintLayout>

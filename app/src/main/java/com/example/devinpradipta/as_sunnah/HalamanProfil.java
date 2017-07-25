@@ -1,19 +1,13 @@
 package com.example.devinpradipta.as_sunnah;
 
-import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.view.View;
-import android.widget.Button;
 
-public class aturProgress extends AppCompatActivity {
-    Button masuk;
-    Intent masuks;
+public class HalamanProfil extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_atur_progress);
-
+        setContentView(R.layout.activity_halaman_profil);
     }
 }

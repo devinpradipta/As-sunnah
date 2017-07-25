@@ -15,14 +15,12 @@
         style="@style/Widget.AppCompat.Button.Small"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_marginLeft="8dp"
-        android:layout_marginStart="8dp"
-        android:layout_toEndOf="@+id/button16"
-        android:layout_toRightOf="@+id/button16"
         android:background="@android:color/holo_green_light"
         android:text="-"
-        android:textSize="30sp" />
+        android:textSize="30sp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
 
     <Button
         android:id="@+id/button13"
@@ -78,13 +76,16 @@
 
     <Button
         android:id="@+id/button16"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="14dp"
-        android:background="@android:color/holo_red_light"
-        android:text="kembali ke Menu"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true" />
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="500dp"
+        android:layout_height="47dp"
+        android:layout_below="@+id/button28"
+        android:layout_marginTop="154dp"
+        android:background="@android:color/holo_orange_dark"
+        android:text="Updatr Progress"
+        tools:layout_editor_absoluteX="-3dp"
+        tools:layout_editor_absoluteY="561dp" />
+
 
     <Button
         android:id="@+id/button18"
@@ -100,68 +101,52 @@
         android:textSize="30sp" />
 
     <TextView
-        android:id="@+id/textView16"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/textView15"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="28dp"
-        android:text="Jangan Lupa Berwudhu"
-        android:textColor="@android:color/holo_orange_dark"
-        android:textSize="18sp" />
-
-    <TextView
         android:id="@+id/textView15"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
         android:text="Jangan lupa sisihkan rp.250.000 untuk Zakat"
-        android:textColor="@android:color/holo_orange_dark"
+        android:textColor="@android:color/background_dark"
         android:textSize="18sp" />
 
     <TextView
         android:id="@+id/textView12"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignBaseline="@+id/button19"
-        android:layout_alignBottom="@+id/button19"
-        android:layout_alignEnd="@+id/textView11"
-        android:layout_alignRight="@+id/textView11"
-        android:layout_marginEnd="9dp"
-        android:layout_marginRight="9dp"
         android:text="Dzikir :  /  Kali"
         android:textAlignment="viewEnd"
-        android:textColor="@android:color/holo_orange_dark"
-        android:textSize="18sp" />
+        android:textColor="@android:color/background_dark"
+        android:textSize="20sp"
+        android:layout_alignBaseline="@+id/button18"
+        android:layout_alignBottom="@+id/button18"
+        android:layout_alignLeft="@+id/textView11"
+        android:layout_alignStart="@+id/textView11" />
 
     <TextView
         android:id="@+id/textView10"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignBaseline="@+id/button13"
-        android:layout_alignBottom="@+id/button13"
-        android:layout_alignEnd="@+id/button28"
-        android:layout_alignRight="@+id/button28"
-        android:layout_marginEnd="34dp"
-        android:layout_marginRight="34dp"
+        android:layout_alignBaseline="@+id/button12"
+        android:layout_alignBottom="@+id/button12"
+        android:layout_alignLeft="@+id/textView9"
+        android:layout_alignStart="@+id/textView9"
         android:text="Tahajud:  /  Rakaat"
         android:textAlignment="viewStart"
-        android:textColor="@android:color/holo_orange_dark"
-        android:textSize="18sp" />
+        android:textColor="@android:color/background_dark"
+        android:textSize="20sp" />
 
     <TextView
         android:id="@+id/textView9"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignBaseline="@+id/button11"
-        android:layout_alignBottom="@+id/button11"
-        android:layout_alignLeft="@+id/textView10"
-        android:layout_alignStart="@+id/textView10"
         android:text="Dhuha:  /  Rakaat"
         android:textAlignment="viewStart"
-        android:textColor="@android:color/holo_orange_dark"
-        android:textSize="18sp" />
+        android:textColor="@android:color/background_dark"
+        android:textSize="20sp"
+        android:layout_alignBaseline="@+id/button11"
+        android:layout_alignBottom="@+id/button11"
+        android:layout_centerHorizontal="true" />
 
     <TextView
         android:id="@+id/textView11"
@@ -173,8 +158,8 @@
         android:layout_alignStart="@+id/textView10"
         android:text="Tadarus :  /  Juz"
         android:textAlignment="viewStart"
-        android:textColor="@android:color/holo_orange_dark"
-        android:textSize="18sp" />
+        android:textColor="@android:color/background_dark"
+        android:textSize="20sp" />
 
     <Button
         android:id="@+id/button10"
@@ -207,7 +192,7 @@
         android:layout_height="wrap_content"
         android:background="@android:color/holo_green_light"
         android:text="simpan"
-        android:layout_below="@+id/textView16"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="50dp" />
+        android:layout_marginTop="38dp"
+        android:layout_below="@+id/textView15"
+        android:layout_centerHorizontal="true" />
 </RelativeLayout>
