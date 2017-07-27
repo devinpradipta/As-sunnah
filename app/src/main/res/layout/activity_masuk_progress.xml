@@ -18,7 +18,7 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:background="@android:color/darker_gray"
+        android:background="@android:color/holo_orange_dark"
         android:text="-"
         android:textSize="30sp" />
 
@@ -31,7 +31,7 @@
         android:layout_alignStart="@+id/button11"
         android:layout_below="@+id/button11"
         android:layout_marginTop="10dp"
-        android:background="@android:color/darker_gray"
+        android:background="@android:color/holo_orange_dark"
         android:text="-"
         android:textSize="30sp" />
 
@@ -44,7 +44,7 @@
         android:layout_alignBottom="@+id/button13"
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
-        android:background="@android:color/darker_gray"
+        android:background="@android:color/holo_orange_dark"
         android:text="+"
         android:textSize="30sp" />
 
@@ -57,7 +57,7 @@
         android:layout_alignBottom="@+id/button14"
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
-        android:background="@android:color/darker_gray"
+        android:background="@android:color/holo_orange_dark"
         android:text="+"
         android:textSize="30sp" />
 
@@ -70,7 +70,7 @@
         android:layout_alignStart="@+id/button13"
         android:layout_below="@+id/button13"
         android:layout_marginTop="9dp"
-        android:background="@android:color/darker_gray"
+        android:background="@android:color/holo_orange_dark"
         android:text="-"
         android:textSize="30sp" />
 
@@ -82,7 +82,7 @@
         android:layout_below="@+id/button28"
         android:layout_marginTop="154dp"
         android:background="@android:color/holo_orange_dark"
-        android:text="Updatr Progress"
+        android:text="Update Progress"
         tools:layout_editor_absoluteX="-3dp"
         tools:layout_editor_absoluteY="561dp" />
 
@@ -96,7 +96,7 @@
         android:layout_alignBottom="@+id/button19"
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
-        android:background="@android:color/darker_gray"
+        android:background="@android:color/holo_orange_dark"
         android:text="+"
         android:textSize="30sp" />
 
@@ -104,24 +104,25 @@
         android:id="@+id/textView15"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
-        android:layout_centerVertical="true"
+        android:layout_marginTop="91dp"
         android:text="Rp.250.000 untuk Zakat"
         android:textColor="@android:color/background_dark"
-        android:textSize="24sp" />
+        android:textSize="18sp"
+        android:layout_below="@+id/button19"
+        android:layout_centerHorizontal="true" />
 
     <TextView
         android:id="@+id/textView12"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Dzikir :  /  Kali"
-        android:textAlignment="viewEnd"
-        android:textColor="@android:color/background_dark"
-        android:textSize="20sp"
         android:layout_alignBaseline="@+id/button18"
         android:layout_alignBottom="@+id/button18"
         android:layout_alignLeft="@+id/textView11"
-        android:layout_alignStart="@+id/textView11" />
+        android:layout_alignStart="@+id/textView11"
+        android:text="Dzikir :  /  Kali"
+
+        android:textColor="@android:color/background_dark"
+        android:textSize="15sp" />
 
     <TextView
         android:id="@+id/textView10"
@@ -132,21 +133,21 @@
         android:layout_alignLeft="@+id/textView9"
         android:layout_alignStart="@+id/textView9"
         android:text="Tahajud:  /  Rakaat"
-        android:textAlignment="viewStart"
+
         android:textColor="@android:color/background_dark"
-        android:textSize="20sp" />
+        android:textSize="15sp" />
 
     <TextView
         android:id="@+id/textView9"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Dhuha:  /  Rakaat"
-        android:textAlignment="viewStart"
-        android:textColor="@android:color/background_dark"
-        android:textSize="20sp"
         android:layout_alignBaseline="@+id/button11"
         android:layout_alignBottom="@+id/button11"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:text="Dhuha:  /  Rakaat"
+
+        android:textColor="@android:color/background_dark"
+        android:textSize="15sp" />
 
     <TextView
         android:id="@+id/textView11"
@@ -157,9 +158,9 @@
         android:layout_alignLeft="@+id/textView10"
         android:layout_alignStart="@+id/textView10"
         android:text="Tadarus :  /  Juz"
-        android:textAlignment="viewStart"
+
         android:textColor="@android:color/background_dark"
-        android:textSize="20sp" />
+        android:textSize="15sp" />
 
     <Button
         android:id="@+id/button10"
@@ -169,7 +170,7 @@
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentTop="true"
-        android:background="@android:color/darker_gray"
+        android:background="@android:color/holo_orange_dark"
         android:text="+"
         android:textSize="30sp" />
 
@@ -182,7 +183,7 @@
         android:layout_alignStart="@+id/button14"
         android:layout_below="@+id/button14"
         android:layout_marginTop="14dp"
-        android:background="@android:color/darker_gray"
+        android:background="@android:color/holo_orange_dark"
         android:text="-"
         android:textSize="30sp" />
 
@@ -190,9 +191,9 @@
         android:id="@+id/button28"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/textView15"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="38dp"
         android:background="@android:color/holo_orange_dark"
-        android:text="simpan" />
+        android:text="simpan"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="47dp" />
 </RelativeLayout>
