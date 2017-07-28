@@ -15,25 +15,25 @@
         style="@style/Widget.AppCompat.Button.Small"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
         android:background="@android:color/holo_orange_dark"
         android:text="-"
-        android:textSize="30sp" />
+        android:textSize="30sp"
+        android:layout_above="@+id/textView10"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
 
     <Button
         android:id="@+id/button13"
         style="@style/Widget.AppCompat.Button.Small"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/button11"
-        android:layout_alignStart="@+id/button11"
-        android:layout_below="@+id/button11"
-        android:layout_marginTop="10dp"
         android:background="@android:color/holo_orange_dark"
         android:text="-"
-        android:textSize="30sp" />
+        android:textSize="30sp"
+        android:layout_alignBaseline="@+id/textView10"
+        android:layout_alignBottom="@+id/textView10"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
 
     <Button
         android:id="@+id/button12"
@@ -53,26 +53,26 @@
         style="@style/Widget.AppCompat.Button.Small"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignBaseline="@+id/button14"
-        android:layout_alignBottom="@+id/button14"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentRight="true"
         android:background="@android:color/holo_orange_dark"
         android:text="+"
-        android:textSize="30sp" />
+        android:textSize="30sp"
+        android:layout_below="@+id/button12"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="28dp" />
 
     <Button
         android:id="@+id/button14"
         style="@style/Widget.AppCompat.Button.Small"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/button13"
-        android:layout_alignStart="@+id/button13"
-        android:layout_below="@+id/button13"
-        android:layout_marginTop="9dp"
         android:background="@android:color/holo_orange_dark"
         android:text="-"
-        android:textSize="30sp" />
+        android:textSize="30sp"
+        android:layout_alignBaseline="@+id/button15"
+        android:layout_alignBottom="@+id/button15"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
 
     <Button
         android:id="@+id/button16"
@@ -92,23 +92,23 @@
         style="@style/Widget.AppCompat.Button.Small"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignBaseline="@+id/button19"
-        android:layout_alignBottom="@+id/button19"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentRight="true"
         android:background="@android:color/holo_orange_dark"
         android:text="+"
-        android:textSize="30sp" />
+        android:textSize="30sp"
+        android:layout_below="@+id/button15"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="29dp" />
 
     <TextView
         android:id="@+id/textView15"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="91dp"
         android:text="Rp.250.000 untuk Zakat"
         android:textColor="@android:color/background_dark"
         android:textSize="18sp"
-        android:layout_below="@+id/button19"
+        android:layout_marginTop="80dp"
+        android:layout_below="@+id/button18"
         android:layout_centerHorizontal="true" />
 
     <TextView
@@ -128,14 +128,14 @@
         android:id="@+id/textView10"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignBaseline="@+id/button12"
-        android:layout_alignBottom="@+id/button12"
-        android:layout_alignLeft="@+id/textView9"
-        android:layout_alignStart="@+id/textView9"
         android:text="Tahajud:  /  Rakaat"
 
         android:textColor="@android:color/background_dark"
-        android:textSize="15sp" />
+        android:textSize="15sp"
+        android:layout_below="@+id/button10"
+        android:layout_alignLeft="@+id/textView9"
+        android:layout_alignStart="@+id/textView9"
+        android:layout_marginTop="48dp" />
 
     <TextView
         android:id="@+id/textView9"
@@ -167,25 +167,26 @@
         style="@style/Widget.AppCompat.Button.Small"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentTop="true"
         android:background="@android:color/holo_orange_dark"
         android:text="+"
-        android:textSize="30sp" />
+        android:textSize="30sp"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
 
     <Button
         android:id="@+id/button19"
         style="@style/Widget.AppCompat.Button.Small"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/button14"
-        android:layout_alignStart="@+id/button14"
-        android:layout_below="@+id/button14"
-        android:layout_marginTop="14dp"
         android:background="@android:color/holo_orange_dark"
         android:text="-"
-        android:textSize="30sp" />
+        android:textSize="30sp"
+        android:layout_alignBaseline="@+id/textView12"
+        android:layout_alignBottom="@+id/textView12"
+        android:layout_alignLeft="@+id/textView"
+        android:layout_alignStart="@+id/textView" />
 
     <Button
         android:id="@+id/button28"
@@ -194,6 +195,16 @@
         android:background="@android:color/holo_orange_dark"
         android:text="simpan"
         android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="47dp" />
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Update Progress Anda disini"
+        android:textSize="30sp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
 </RelativeLayout>

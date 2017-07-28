@@ -56,7 +56,7 @@ public class Masuk_progress extends AppCompatActivity {
         //zakat
         final SharedPreferences simpanZakat = getSharedPreferences("Zakat", Context.MODE_PRIVATE);
         final String hehe = simpanZakat.getString("ZKT","");
-        zakat.setText("Jangan lupa sisihkan rp." + hehe + " untuk berzakat");
+        zakat.setText("" + hehe + " untuk berzakat");
         //dzikir
         final SharedPreferences simpanDzikir = getSharedPreferences("DZIKIR", Context.MODE_PRIVATE);
         final String results = simpanDzikir.getString("DZZ","");

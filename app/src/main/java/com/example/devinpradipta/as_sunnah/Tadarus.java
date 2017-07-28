@@ -67,7 +67,7 @@ public class Tadarus extends AppCompatActivity {
 
         SharedPreferences save = getSharedPreferences("simpanTDR",Context.MODE_PRIVATE);
         String testing = save.getString("TDR","");
-        hasilnya.setText(""+testing);
+        hasilnya.setText(" "+testing);
         hasilnya1.setText("Target Dhuha "+testing);
         simpan.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -91,19 +91,7 @@ public class Tadarus extends AppCompatActivity {
         hasilnya1.setText("Target Dhuha "+ testing + " "+ satu.getText());
     }
 
-    public void halaman(View v) {
-        dua = (RadioButton) findViewById(R.id.radioButton2);
-        SharedPreferences save = getSharedPreferences("simpanTDR",Context.MODE_PRIVATE);
-        String testing = save.getString("TDR","");
-        hasilnya1.setText("Target Dhuha "+ testing + " "+ dua.getText());
-    }
 
-    public void lembar(View v) {
-        tiga = (RadioButton) findViewById(R.id.radioButton3);
-        SharedPreferences save = getSharedPreferences("simpanTDR",Context.MODE_PRIVATE);
-        String testing = save.getString("TDR","");
-        hasilnya1.setText("Target Dhuha "+ testing + " "+ tiga.getText());
-    }
 }
 
 

@@ -38,28 +38,6 @@
             android:layout_marginTop="105dp"
             android:text="Juz" />
 
-        <RadioButton
-            android:id="@+id/radioButton2"
-            android:onClick="halaman"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="0.52"
-            android:text="Halaman"
-            android:layout_alignBaseline="@+id/radioButton"
-            android:layout_alignBottom="@+id/radioButton"
-            android:layout_alignRight="@+id/button26"
-            android:layout_alignEnd="@+id/button26" />
-
-        <RadioButton
-            android:id="@+id/radioButton3"
-            android:onClick="lembar"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Lembar"
-            android:layout_alignBaseline="@+id/radioButton2"
-            android:layout_alignBottom="@+id/radioButton2"
-            android:layout_alignRight="@+id/button7"
-            android:layout_alignEnd="@+id/button7" />
     </RadioGroup>
 
     <Button

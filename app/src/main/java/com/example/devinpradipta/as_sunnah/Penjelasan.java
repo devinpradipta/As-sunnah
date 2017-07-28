@@ -14,7 +14,7 @@ import static android.support.v7.widget.AppCompatDrawableManager.get;
 
 public class Penjelasan extends AppCompatActivity {
     ListView penjelasan;
-    String[] isi = {"Progress Anda","Dhuha","tahajud","tadarus","Dzikir","Zakat","Jadwal Shalat","Setting"};
+    String[] isi = {"Update Progress","Dhuha","tahajud","Tadarus","Dzikir","Zakat","Jadwal Shalat","Setting"};
     Intent i;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
