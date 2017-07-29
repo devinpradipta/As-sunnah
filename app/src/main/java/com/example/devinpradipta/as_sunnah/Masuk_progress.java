@@ -37,7 +37,6 @@ public class Masuk_progress extends AppCompatActivity {
         kurangDzikir = (Button) findViewById(R.id.button19);
         simpan = (Button) findViewById(R.id.button28);
 
-
         //load progress all
         SharedPreferences sp = getSharedPreferences("PROGRESS",Context.MODE_PRIVATE);
         final String dhuhaku = sp.getString("DHUHAKU","");
@@ -46,10 +45,10 @@ public class Masuk_progress extends AppCompatActivity {
         final String zikirku = sp.getString("ZIKIRKU","");
 
         //dhuha
-        SharedPreferences save = getSharedPreferences("simpanDHH", Context.MODE_PRIVATE);
-        final String testing = save.getString("DHH","");
+        SharedPreferences save1 = getSharedPreferences("simpanDHH", Context.MODE_PRIVATE);
+        final String testing = save1.getString("DHH","");
         dhuha.setText("Dhuha: "+ dhuhaku + "/"+ testing + " rakaat" );
-
+        //tahajud
         final SharedPreferences simpanTahajud = getSharedPreferences("Tahajud", Context.MODE_PRIVATE);
         final String hasil = simpanTahajud.getString("THD", "");
         tahajud.setText("Tahajud: " + tahajudku + "/" + hasil + " rakaat");
