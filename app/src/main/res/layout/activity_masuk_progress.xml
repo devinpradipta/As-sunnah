@@ -10,7 +10,9 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.devinpradipta.as_sunnah.Masuk_progress">
 
-    <Button
+
+
+        <Button
         android:id="@+id/button11"
         style="@style/Widget.AppCompat.Button.Small"
         android:layout_width="wrap_content"
@@ -18,7 +20,8 @@
         android:background="@android:color/holo_orange_dark"
         android:text="-"
         android:textSize="30sp"
-        android:layout_above="@+id/textView10"
+        android:layout_alignBaseline="@+id/button10"
+        android:layout_alignBottom="@+id/button10"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
 
@@ -30,8 +33,7 @@
         android:background="@android:color/holo_orange_dark"
         android:text="-"
         android:textSize="30sp"
-        android:layout_alignBaseline="@+id/textView10"
-        android:layout_alignBottom="@+id/textView10"
+        android:layout_below="@+id/button27"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
 
@@ -56,10 +58,10 @@
         android:background="@android:color/holo_orange_dark"
         android:text="+"
         android:textSize="30sp"
-        android:layout_below="@+id/button12"
+        android:layout_alignBaseline="@+id/textView11"
+        android:layout_alignBottom="@+id/textView11"
         android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true"
-        android:layout_marginTop="28dp" />
+        android:layout_alignParentEnd="true" />
 
     <Button
         android:id="@+id/button14"
@@ -69,10 +71,10 @@
         android:background="@android:color/holo_orange_dark"
         android:text="-"
         android:textSize="30sp"
-        android:layout_alignBaseline="@+id/button15"
-        android:layout_alignBottom="@+id/button15"
+        android:layout_below="@+id/button30"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="13dp" />
 
     <Button
         android:id="@+id/button16"
@@ -95,10 +97,10 @@
         android:background="@android:color/holo_orange_dark"
         android:text="+"
         android:textSize="30sp"
-        android:layout_below="@+id/button15"
+        android:layout_alignBaseline="@+id/button19"
+        android:layout_alignBottom="@+id/button19"
         android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true"
-        android:layout_marginTop="29dp" />
+        android:layout_alignParentEnd="true" />
 
     <TextView
         android:id="@+id/textView15"
@@ -107,8 +109,8 @@
         android:text="Rp.250.000 untuk Zakat"
         android:textColor="@android:color/background_dark"
         android:textSize="18sp"
-        android:layout_marginTop="80dp"
-        android:layout_below="@+id/button18"
+        android:layout_marginBottom="25dp"
+        android:layout_above="@+id/button28"
         android:layout_centerHorizontal="true" />
 
     <TextView
@@ -132,10 +134,10 @@
 
         android:textColor="@android:color/background_dark"
         android:textSize="15sp"
-        android:layout_below="@+id/button10"
+        android:layout_alignBaseline="@+id/button12"
+        android:layout_alignBottom="@+id/button12"
         android:layout_alignLeft="@+id/textView9"
-        android:layout_alignStart="@+id/textView9"
-        android:layout_marginTop="48dp" />
+        android:layout_alignStart="@+id/textView9" />
 
     <TextView
         android:id="@+id/textView9"
@@ -183,10 +185,10 @@
         android:background="@android:color/holo_orange_dark"
         android:text="-"
         android:textSize="30sp"
-        android:layout_alignBaseline="@+id/textView12"
-        android:layout_alignBottom="@+id/textView12"
-        android:layout_alignLeft="@+id/textView"
-        android:layout_alignStart="@+id/textView" />
+        android:layout_above="@+id/textView15"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="25dp" />
 
     <Button
         android:id="@+id/button28"
@@ -206,5 +208,41 @@
         android:layout_alignParentTop="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/button27"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="Simpan Dhuha"
+        android:layout_below="@+id/button11"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/button30"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="17dp"
+        android:text="Button"
+        android:layout_below="@+id/button12"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/button31"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button12"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="17dp"
+        android:text="Simpan tahajud" />
+
+    <Button
+        android:id="@+id/button32"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Simpan Tadarus"
+        android:layout_above="@+id/button19"
+        android:layout_alignRight="@+id/button31"
+        android:layout_alignEnd="@+id/button31" />
 
 </RelativeLayout>

@@ -34,15 +34,17 @@ public class Dhuha extends AppCompatActivity {
                 startActivity(lihatUpdate);
             }
         });
-
+        simpan.setEnabled(false);
 
         tambah.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                simpan.setEnabled(true);
                 rakaatDhuha = rakaatDhuha + 1;
                 hasil1.setText(""+rakaatDhuha);
                 if(rakaatDhuha == 8 || rakaatDhuha == 15 || rakaatDhuha == 20){
                     Toast.makeText(getApplicationContext(),"Jangan terlalu banyak memasang target, target sudah melebihi " + rakaatDhuha + " Rakaat",Toast.LENGTH_LONG).show();
+
                 }
 
 
@@ -56,11 +58,13 @@ public class Dhuha extends AppCompatActivity {
         kurang.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                simpan.setEnabled(true);
                 rakaatDhuha = rakaatDhuha - 1;
                 hasil1.setText(""+rakaatDhuha);
                 if(rakaatDhuha <= 0){
                     rakaatDhuha = 0;
                     hasil1.setText(""+0);
+
                 }
             }
         });

@@ -39,11 +39,11 @@ public class HalamanProfil extends AppCompatActivity {
         //dhuha
         SharedPreferences save = getSharedPreferences("simpanDHH", Context.MODE_PRIVATE);
         final String testing = save.getString("DHH","");
-        Dhuha.setText(dhuhaku + "/"+ testing + " rakaat");
+        Dhuha.setText(""+dhuhaku + "/"+ testing + " rakaat");
         //tahajud
         final SharedPreferences simpanTahajud = getSharedPreferences("Tahajud", Context.MODE_PRIVATE);
         final String hasil = simpanTahajud.getString("THD", "");
-        Tahajud.setText(tahajudku + "/" + hasil + " rakaat");
+        Tahajud.setText(""+tahajudku + "/" + hasil + " rakaat");
         //zakat
         final SharedPreferences simpanZakat = getSharedPreferences("Zakat", Context.MODE_PRIVATE);
         final String hehe = simpanZakat.getString("ZKT","");
