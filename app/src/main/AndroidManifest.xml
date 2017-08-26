@@ -16,7 +16,7 @@
             <category android:name="android.intent.category.LAUNCHER" />
         </intent-filter>
 
-        <activity android:name=".Dhuha" />
+        <activity android:name=".aturProgress$Dhuha" />
         <activity android:name=".Tahajud" />
         <activity android:name=".Tadarus" />
         <activity android:name=".Zakat" />

@@ -8,10 +8,6 @@ import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
-import java.lang.reflect.Array;
-
-import static android.support.v7.widget.AppCompatDrawableManager.get;
-
 public class Penjelasan extends AppCompatActivity {
     ListView penjelasan;
     String[] isi = {"Update Progress","Dhuha","tahajud","Tadarus","Dzikir","Zakat","Jadwal Shalat","Setting"};
@@ -33,7 +29,7 @@ public class Penjelasan extends AppCompatActivity {
                     i = new Intent(getApplication(), Masuk_progress.class);
                     startActivity(i);
                 } else if (position == 1) {
-                    i = new Intent(getApplication(), Dhuha.class);
+                    i = new Intent(getApplication(), aturProgress.Dhuha.class);
                     startActivity(i);
                 }else if (position == 2){
                     i = new Intent(getApplication(), Tahajud.class);
